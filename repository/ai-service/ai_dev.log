@@ -1,0 +1,35 @@
+INFO:     Started server process [19340]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58550 - "GET /health HTTP/1.1" 200 OK
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 1111.59it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2473.11it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2395.79it/s]
+INFO:     127.0.0.1:57428 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56352 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57428 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56352 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /suggest-topics HTTP/1.1" 200 OK
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2239.14it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2784.51it/s]
+INFO:     127.0.0.1:53654 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55026 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62798 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64760 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64760 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55677 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55677 - "POST /duplicate-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58481 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59344 - "POST /suggest-topics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "POST /duplicate-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60119 - "POST /plagiarism-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55636 - "POST /duplicate-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56525 - "POST /embed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56525 - "POST /suggest-topics HTTP/1.1" 200 OK

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/*
+ * University of Kigali brand palette. Overriding Tailwind's built-in `indigo` scale
+ * means every existing indigo-* utility class in the app (Button, Layout, Badge, links,
+ * focus rings, etc.) picks up the brand blue automatically, with no per-file changes.
+ * `terracotta` (Japonica) and `tangerine` are additional UOK brand accents used on the
+ * landing page and for secondary highlights.
+ */
+@theme {
+  --color-indigo-50: #f7f9fc;
+  --color-indigo-100: #eef3fb;
+  --color-indigo-200: #e9eff7;
+  --color-indigo-300: #b7cef2;
+  --color-indigo-400: #76a8f6;
+  --color-indigo-500: #4f90f3;
+  --color-indigo-600: #2e7bf1;
+  --color-indigo-700: #0f62e2;
+  --color-indigo-800: #0d54c1;
+  --color-indigo-900: #0b459f;
+  --color-indigo-950: #08377e;
+
+  --color-terracotta-50: #fbf9f8;
+  --color-terracotta-100: #f5ece9;
+  --color-terracotta-200: #f8f3f1;
+  --color-terracotta-300: #e9cfc8;
+  --color-terracotta-400: #dfa494;
+  --color-terracotta-500: #d68975;
+  --color-terracotta-600: #ce7259;
+  --color-terracotta-700: #c05639;
+  --color-terracotta-800: #a54931;
+  --color-terracotta-900: #893d28;
+  --color-terracotta-950: #6e3120;
+
+  --color-tangerine-50: #fdfaf7;
+  --color-tangerine-100: #f9f2e9;
+  --color-tangerine-200: #f8ddbc;
+  --color-tangerine-300: #ffc47d;
+  --color-tangerine-400: #ffa940;
+  --color-tangerine-500: #ff9617;
+  --color-tangerine-600: #f28500;
+  --color-tangerine-700: #c46c00;
+  --color-tangerine-800: #a05800;
+  --color-tangerine-900: #7d4500;
+  --color-tangerine-950: #593100;
+}
